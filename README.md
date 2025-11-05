@@ -1,5 +1,5 @@
 # Tesi-Consistenza
-Codici verifica consistenza risposte LLM
+Codici verifica consistenza risposte LLM.
 
 Il file "promptllm.py" contiene il prompt fornito al modello Gemini e le funzioni per inviare il codice al LLM e ricevere le risposte in formato JSON.
 
