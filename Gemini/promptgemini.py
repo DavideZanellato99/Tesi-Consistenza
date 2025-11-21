@@ -4,7 +4,7 @@ import json
 import re                              
 
 # Inizializza il client per comunicare con il modello Gemini
-client = genai.Client(api_key="AIzaSyAIXtYquE8eH1LrtqtWkz67-RHLRmweBqA")
+client = genai.Client(api_key="")
 
   
 # Invia uno snippet di codice C/C++ al modello LLM Gemini e riceve una risposta strutturata in JSON.
