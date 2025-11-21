@@ -48,7 +48,7 @@ def process_folder(folder: str, out_csv: str, encoding: str = 'utf-8'):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Crea CSV da file in una cartella (no header, contenuto su una sola riga).'
+        description='Crea CSV da file in una cartella'
     )
     parser.add_argument('folder', help='Cartella contenente i file')
     parser.add_argument('output_csv', help='Percorso file CSV di output')

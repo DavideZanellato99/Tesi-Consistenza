@@ -15,9 +15,9 @@ num_ripetizioni = 5              # Numero di volte che il modello verrà chiamat
 output_folder = "Risultati"      # Cartella dove salvare i risultati generati
 
 # --- Modalità di esecuzione ---
-riga_singola = 99            # Se riga_singola = valore, elabora solo quella riga del CSV
-riga_inizio = 141                 # Riga iniziale da cui partire nel file CSV (1 = prima riga)
-max_righe = 18                  # Numero massimo di righe da leggere a partire da riga_inizio
+riga_singola = None            # Se riga_singola = valore, elabora solo quella riga del CSV
+riga_inizio = 1                 # Riga iniziale da cui partire nel file CSV (1 = prima riga)
+max_righe = 158                  # Numero massimo di righe da leggere a partire da riga_inizio
 
 
 # ======================
@@ -65,7 +65,7 @@ with open(csv_input, newline='', encoding='utf-8') as csvfile:
 
         # Verifica che la riga contenga almeno 3 colonne (nome file, tag, codice)
         if len(row) < 3:
-            print(f"⚠️ Riga {riga_index} non valida (meno di 3 colonne): {row}")
+            print(f"Riga {riga_index} non valida (meno di 3 colonne): {row}")
             continue  # Salta la riga non valida
 
         # Estrae i campi principali dal CSV
