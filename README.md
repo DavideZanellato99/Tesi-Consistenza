@@ -1,6 +1,18 @@
 # Tesi-Consistenza
-Codici verifica consistenza risposte LLM.
 
-Il file "promptllm.py" contiene il prompt fornito al modello Gemini e le funzioni per inviare il codice al LLM e ricevere le risposte in formato JSON.
 
-Il file "tesi.py" contiene le funzioni per leggere un CSV con snippet di codice, chiamare più volte il modello per ciascun snippet e salvare i risultati strutturati in file CSV.
+
+Spiegazione file che si trovano nel repository:
+
+
+
+Gemini: cartella che contiene script, esperimenti e risultati relativi al LLM Gemini
+
+
+
+testSet: cartella del dataset Sven che contiene i file utilizzati per condurre gli esperimenti
+
+
+
+genera\_file\_dati\_domande.py: script python che elabora i file presenti nella cartella testSet e crea un file csv contenente tutte le informazioni per condurre gli esperimenti
+
