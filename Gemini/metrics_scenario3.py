@@ -526,7 +526,7 @@ def main():
                 prompt_number_match = re.search(r'\d+$', prompt_dir.name)
                 prompt_number = prompt_number_match.group(0) if prompt_number_match else "X"
 
-                output_dir = model_dir / "metrics-scenario-3"
+                output_dir = model_dir / "PrimeVul/RisultatiAccuratezza/metrics-scenario-3"
                 output_dir.mkdir(parents=True, exist_ok=True)
                 print(f"Reports for this model will be saved in: {output_dir.resolve()}\n")
 

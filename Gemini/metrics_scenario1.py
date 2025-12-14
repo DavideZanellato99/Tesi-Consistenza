@@ -91,7 +91,7 @@ def main():
             return
 
         print(f"--- Starting single file processing: {path} ---")
-        output_dir = os.path.join(os.path.dirname(path), "metrics-scenario-1")
+        output_dir = os.path.join(os.path.dirname(path), "PrimeVul/RisultatiAccuratezza/metrics-scenario-1")
         os.makedirs(output_dir, exist_ok=True)
         print(f"  -> Results will be saved in: {output_dir}")
         
